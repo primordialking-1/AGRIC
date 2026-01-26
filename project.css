@@ -94,31 +94,30 @@ i{
 /*NAV2 SECTION*/
 .nav2{
     background-color: green;
-    height: 49px;
+    height: 49px; 
 }
 
 .menu{
     text-align: center;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
     margin-top: 5px;
+    width: 100%;
 }
 
 ul li{
     font-size: 30px;
     font-weight: 300;
     list-style: none;
-    display: inline-block;
-    margin-left: 70px;
     align-items: center;
-    padding-right: 100px; 
 }
 
 .nav2 .menu li a{
+    margin-top: 5px;
     display: block;
     color: white;
-    font-size: 29px;
+    font-size: 23px;
     font-weight: 700;
-    margin-left: 25px;
     transition: color 0.3s ease;
     border: 1px solid;
     padding: 2px;
@@ -1111,8 +1110,8 @@ ul li{
 }
 
 .nav2 .menu li a{
-    margin-left: 15px;
-    gap: 0.9rem;}
+    margin-left: 14px;
+}
 
 .nav2 .menu a{
     color: white;
